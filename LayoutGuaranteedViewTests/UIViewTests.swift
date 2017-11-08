@@ -1,5 +1,5 @@
 //
-//  LayoutGuaranteedViewTests.swift
+//  LayoutGuaranteedViewUIViewTests.swift
 //  LayoutGuaranteedViewTests
 //
 //  Created by marty-suzuki on 2017/11/08.
@@ -9,19 +9,8 @@
 import XCTest
 @testable import LayoutGuaranteedView
 
-class LayoutGuaranteedViewTests: XCTestCase {
-    
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
-    func testUIViewWithFrame() {
+class UIViewTests: XCTestCase {
+    func testFrame() {
         let superview = UIView()
         let frame = CGRect(x: 20, y: 30, width: 100, height: 50)
         let holder = ViewHolder<UIView>(frame: frame)
@@ -29,7 +18,7 @@ class LayoutGuaranteedViewTests: XCTestCase {
         XCTAssertEqual(view.frame, frame)
     }
 
-    func testUIViewWithView() {
+    func testView() {
         let superview = UIView()
         let frame = CGRect(x: 20, y: 30, width: 100, height: 50)
         let base = UIView(frame: frame)

@@ -7,8 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3752C9571FB37568000131A3 /* UICollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3752C9561FB37568000131A3 /* UICollectionViewTests.swift */; };
+		3752C9591FB376EE000131A3 /* UITableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3752C9581FB376EE000131A3 /* UITableViewTests.swift */; };
+		3752C95B1FB37765000131A3 /* UIStackViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3752C95A1FB37765000131A3 /* UIStackViewTests.swift */; };
+		3752C95D1FB3781E000131A3 /* UIScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3752C95C1FB3781E000131A3 /* UIScrollViewTests.swift */; };
+		3752C95F1FB37850000131A3 /* UIActivityIndicatorViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3752C95E1FB37850000131A3 /* UIActivityIndicatorViewTests.swift */; };
+		3752C9611FB378C9000131A3 /* UIImageViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3752C9601FB378C9000131A3 /* UIImageViewTest.swift */; };
+		3752C9631FB37979000131A3 /* UIPickerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3752C9621FB37979000131A3 /* UIPickerViewTests.swift */; };
+		3752C9651FB379AC000131A3 /* UIWebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3752C9641FB379AC000131A3 /* UIWebViewTests.swift */; };
+		3752C9671FB379FA000131A3 /* UIProgressViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3752C9661FB379FA000131A3 /* UIProgressViewTests.swift */; };
 		9D95412D1FB2CA800083292B /* LayoutGuaranteedView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9541231FB2CA800083292B /* LayoutGuaranteedView.framework */; };
-		9D9541321FB2CA800083292B /* LayoutGuaranteedViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9541311FB2CA800083292B /* LayoutGuaranteedViewTests.swift */; };
+		9D9541321FB2CA800083292B /* UIViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9541311FB2CA800083292B /* UIViewTests.swift */; };
 		9D9541341FB2CA800083292B /* LayoutGuaranteedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D9541261FB2CA800083292B /* LayoutGuaranteedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D95413E1FB2CAB20083292B /* LayoutGuaranteedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D95413D1FB2CAB20083292B /* LayoutGuaranteedView.swift */; };
 		9D9541401FB2CB340083292B /* LayoutGuaranteedView.initializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D95413F1FB2CB340083292B /* LayoutGuaranteedView.initializer.swift */; };
@@ -25,11 +34,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3752C9561FB37568000131A3 /* UICollectionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewTests.swift; sourceTree = "<group>"; };
+		3752C9581FB376EE000131A3 /* UITableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewTests.swift; sourceTree = "<group>"; };
+		3752C95A1FB37765000131A3 /* UIStackViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackViewTests.swift; sourceTree = "<group>"; };
+		3752C95C1FB3781E000131A3 /* UIScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewTests.swift; sourceTree = "<group>"; };
+		3752C95E1FB37850000131A3 /* UIActivityIndicatorViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIActivityIndicatorViewTests.swift; sourceTree = "<group>"; };
+		3752C9601FB378C9000131A3 /* UIImageViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewTest.swift; sourceTree = "<group>"; };
+		3752C9621FB37979000131A3 /* UIPickerViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPickerViewTests.swift; sourceTree = "<group>"; };
+		3752C9641FB379AC000131A3 /* UIWebViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWebViewTests.swift; sourceTree = "<group>"; };
+		3752C9661FB379FA000131A3 /* UIProgressViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIProgressViewTests.swift; sourceTree = "<group>"; };
 		9D9541231FB2CA800083292B /* LayoutGuaranteedView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LayoutGuaranteedView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D9541261FB2CA800083292B /* LayoutGuaranteedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayoutGuaranteedView.h; sourceTree = "<group>"; };
 		9D9541271FB2CA800083292B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D95412C1FB2CA800083292B /* LayoutGuaranteedViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LayoutGuaranteedViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D9541311FB2CA800083292B /* LayoutGuaranteedViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutGuaranteedViewTests.swift; sourceTree = "<group>"; };
+		9D9541311FB2CA800083292B /* UIViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewTests.swift; sourceTree = "<group>"; };
 		9D9541331FB2CA800083292B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D95413D1FB2CAB20083292B /* LayoutGuaranteedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutGuaranteedView.swift; sourceTree = "<group>"; };
 		9D95413F1FB2CB340083292B /* LayoutGuaranteedView.initializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutGuaranteedView.initializer.swift; sourceTree = "<group>"; };
@@ -86,8 +104,17 @@
 		9D9541301FB2CA800083292B /* LayoutGuaranteedViewTests */ = {
 			isa = PBXGroup;
 			children = (
-				9D9541311FB2CA800083292B /* LayoutGuaranteedViewTests.swift */,
+				9D9541311FB2CA800083292B /* UIViewTests.swift */,
+				3752C9581FB376EE000131A3 /* UITableViewTests.swift */,
+				3752C9561FB37568000131A3 /* UICollectionViewTests.swift */,
+				3752C95A1FB37765000131A3 /* UIStackViewTests.swift */,
+				3752C95C1FB3781E000131A3 /* UIScrollViewTests.swift */,
+				3752C95E1FB37850000131A3 /* UIActivityIndicatorViewTests.swift */,
+				3752C9601FB378C9000131A3 /* UIImageViewTest.swift */,
+				3752C9621FB37979000131A3 /* UIPickerViewTests.swift */,
+				3752C9641FB379AC000131A3 /* UIWebViewTests.swift */,
 				9D9541331FB2CA800083292B /* Info.plist */,
+				3752C9661FB379FA000131A3 /* UIProgressViewTests.swift */,
 			);
 			path = LayoutGuaranteedViewTests;
 			sourceTree = "<group>";
@@ -212,7 +239,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D9541321FB2CA800083292B /* LayoutGuaranteedViewTests.swift in Sources */,
+				3752C95D1FB3781E000131A3 /* UIScrollViewTests.swift in Sources */,
+				3752C9611FB378C9000131A3 /* UIImageViewTest.swift in Sources */,
+				3752C9591FB376EE000131A3 /* UITableViewTests.swift in Sources */,
+				3752C9671FB379FA000131A3 /* UIProgressViewTests.swift in Sources */,
+				3752C9571FB37568000131A3 /* UICollectionViewTests.swift in Sources */,
+				3752C9631FB37979000131A3 /* UIPickerViewTests.swift in Sources */,
+				3752C9651FB379AC000131A3 /* UIWebViewTests.swift in Sources */,
+				3752C95F1FB37850000131A3 /* UIActivityIndicatorViewTests.swift in Sources */,
+				9D9541321FB2CA800083292B /* UIViewTests.swift in Sources */,
+				3752C95B1FB37765000131A3 /* UIStackViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
