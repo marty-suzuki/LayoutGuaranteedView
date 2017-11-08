@@ -11,7 +11,7 @@ branches:
   only:
     - master
 script:
-  - xcodebuild test -workspace LayoutGuaranteedView.xcworkspace -scheme LayoutGuaranteedViewTests -configuration Debug -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 7" | xcpretty -c
+  - xcodebuild test -workspace LayoutGuaranteedView.xcworkspace -scheme LayoutGuaranteedViewTests -configuration Debug -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 7"
 notifications:
   email:
     on_success: never
