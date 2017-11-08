@@ -1,0 +1,16 @@
+PODS:
+  - LayoutGuaranteedView (0.1.0)
+
+DEPENDENCIES:
+  - LayoutGuaranteedView (from `../`)
+
+EXTERNAL SOURCES:
+  LayoutGuaranteedView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LayoutGuaranteedView: 84d91b8d7355247db55bad1e3859dafa064568ee
+
+PODFILE CHECKSUM: f4ed7816ee040246e257d7699269fb1db3ecf1cc
+
+COCOAPODS: 1.2.1

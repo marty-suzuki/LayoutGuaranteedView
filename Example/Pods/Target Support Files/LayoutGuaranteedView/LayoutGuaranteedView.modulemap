@@ -1,0 +1,6 @@
+framework module LayoutGuaranteedView {
+  umbrella header "LayoutGuaranteedView-umbrella.h"
+
+  export *
+  module * { export * }
+}
