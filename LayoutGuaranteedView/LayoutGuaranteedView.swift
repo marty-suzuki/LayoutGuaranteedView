@@ -10,9 +10,9 @@ import UIKit
 
 public protocol LayoutStatus {}
 public enum LayoutApplied: LayoutStatus {}
-public enum LayouNotApplied: LayoutStatus {}
+public enum LayoutNotApplied: LayoutStatus {}
 
-public typealias ViewHolder<T: UIView> = LayoutGuaranteedView_<LayouNotApplied, T>
+public typealias ViewHolder<T: UIView> = LayoutGuaranteedView_<LayoutNotApplied, T>
 
 public final class LayoutGuaranteedView_<Layout: LayoutStatus, View: UIView> {
     private let _view: View
@@ -22,7 +22,7 @@ public final class LayoutGuaranteedView_<Layout: LayoutStatus, View: UIView> {
     }
 }
 
-extension LayoutGuaranteedView_ where Layout == LayouNotApplied {
+extension LayoutGuaranteedView_ where Layout == LayoutNotApplied {
     public convenience init(frame: CGRect) {
         let view = View(frame: frame)
         self.init(_view: view)
