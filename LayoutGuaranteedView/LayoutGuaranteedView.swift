@@ -33,11 +33,18 @@ extension LayoutGuaranteedView_ where Layout == LayoutNotApplied {
     }
 
     public func guaranteeLayout(addingTo superview: UIView, layoutHandler: (View) -> [NSLayoutConstraint] = { _ in [] }) -> LayoutGuaranteedView_<LayoutApplied, View> {
+        if #available(iOS 11, *) {
+            if superview.contains(_view) {
+                return .init(_view: _view)
+            }
+        } else if superview.subviews.contains(_view) {
+            return .init(_view: _view)
+        }
         superview.addSubview(_view)
         let constraints = layoutHandler(_view)
         if !constraints.isEmpty {
             _view.translatesAutoresizingMaskIntoConstraints = false
-            superview.addConstraints(constraints)
+            NSLayoutConstraint.activate(constraints)
         }
         return .init(_view: _view)
     }
